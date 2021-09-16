@@ -1,0 +1,33 @@
+@import "src/style-scss/style";
+
+.container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: flex-start;
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  @include mobil {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  &__item {
+    margin: 30px 15px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    &_title {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    &_img {
+      margin-right: 15px;
+      width: 75px;
+    }
+  }
+}

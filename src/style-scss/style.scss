@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-yellow: #ffff00;
+  --color-dark-gray: #10100e;
+  --color-red: #f75d83;
+  --color-blue: #6a83fb;
+  --color-violet: #ae72c2;
+
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
+
+  --font-size-main: 16px;
+  --font-size-header: 26px;
+
+  --width-max: 1200px;
+
+  --font-bold: 600;
+  --transition: .4s;
+  --font-family-main: sans-serif;
+
+  --border-radius-small: 3px;
+
+  --text-shadow-yellow: 0 0 2px var(--color-white),
+  0 0 40px var(--color-blue);
+  --theme-header-light: #dfe2df;
+  --theme-header-dark: #ca6c6f;
+  --theme-header-default: #cccc46;
+  --theme-header: var(--theme-header-default);
+
+  --theme-bgimage-light: linear-gradient(to right bottom, #051937, #162454, #312d70, #533389, #7a359f);
+  --theme-bgimage-dark: linear-gradient(to right bottom, #000, #160b11, #20141e, #281b2e, #2b2440);
+  --theme-bgimage-default: url(../img/bg.jpg);
+  --theme-bgimage: var(--theme-bgimage-default);
+}
+
+@import "mobil-mixin";
+
+body {
+  background-image: var(--theme-bgimage);
+  max-width: var(--width-max);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  @include mobil {
+
+  }
+}
+
+.header__title {
+  padding: 10px 50px;
+  color: var(--theme-header);
+  transition: color var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: var(--theme-header);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-violet);
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #f3faf7;
+}

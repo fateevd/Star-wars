@@ -1,0 +1,1 @@
+export const getIdImg = id => `https://starwars-visualguide.com/assets/img/characters/${id}.jpg`;

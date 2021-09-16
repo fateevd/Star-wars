@@ -1,0 +1,21 @@
+.people {
+  color: var(--color-white);
+
+  &__title {
+    font-size: 24px;
+    padding: 10px 20px;
+    background: var(--color-violet);
+    margin-bottom: 15px;
+    border-radius: var(--border-radius-small) var(--border-radius-small) var(--border-radius-small);
+
+  }
+
+
+
+  &_info {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+}

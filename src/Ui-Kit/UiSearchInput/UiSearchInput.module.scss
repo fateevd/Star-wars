@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  outline: none;
+  min-width: 250px;
+  width: 200px;
+  &:focus {
+    box-shadow: var(--text-shadow-yellow);
+    border: 1px solid var(--color-blue);
+  }
+}
+
+.clear {
+  width: 45px;
+  cursor: pointer;
+
+  &_disabled {
+    opacity: 0.5;
+  }
+}
