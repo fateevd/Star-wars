@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8dd35c38.chunk.css",
+    "main.js": "/static/js/main.99b296a0.chunk.js",
+    "main.js.map": "/static/js/main.99b296a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90361e5b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90361e5b.js.map",
+    "static/js/2.5cc50b51.chunk.js": "/static/js/2.5cc50b51.chunk.js",
+    "static/js/2.5cc50b51.chunk.js.map": "/static/js/2.5cc50b51.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8dd35c38.chunk.css.map": "/static/css/main.8dd35c38.chunk.css.map",
+    "static/js/2.5cc50b51.chunk.js.LICENSE.txt": "/static/js/2.5cc50b51.chunk.js.LICENSE.txt",
+    "static/media/960px-Dueling_lightsabers.svg.78ce4496.png": "/static/media/960px-Dueling_lightsabers.svg.78ce4496.png",
+    "static/media/style.scss": "/static/media/bg.29b25be3.jpg",
+    "static/media/bookmark.659b0b3c.svg": "/static/media/bookmark.659b0b3c.svg",
+    "static/media/dark-side.e0f8cab7.e0f8cab7.jpg": "/static/media/dark-side.e0f8cab7.e0f8cab7.jpg",
+    "static/media/droid.de165dd8.svg": "/static/media/droid.de165dd8.svg",
+    "static/media/falcon.c1d0a8d1.c1d0a8d1.jpg": "/static/media/falcon.c1d0a8d1.c1d0a8d1.jpg",
+    "static/media/favorite-fill.c9eab81f.svg": "/static/media/favorite-fill.c9eab81f.svg",
+    "static/media/favorite.f3e32ac5.svg": "/static/media/favorite.f3e32ac5.svg",
+    "static/media/go-back-arrow.7b9f9d72.svg": "/static/media/go-back-arrow.7b9f9d72.svg",
+    "static/media/light-side.eebc5217.eebc5217.jpg": "/static/media/light-side.eebc5217.eebc5217.jpg",
+    "static/media/lightsaber.eb7d4cd6.svg": "/static/media/lightsaber.eb7d4cd6.svg",
+    "static/media/not-found.1062f5e4.jpg": "/static/media/not-found.1062f5e4.jpg",
+    "static/media/space-station.7a027c6e.svg": "/static/media/space-station.7a027c6e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90361e5b.js",
+    "static/js/2.5cc50b51.chunk.js",
+    "static/css/main.8dd35c38.chunk.css",
+    "static/js/main.99b296a0.chunk.js"
+  ]
+}
