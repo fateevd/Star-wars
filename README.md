@@ -1,6 +1,6 @@
 # Привет, это мое небольшое приложение
 
-###[Ссылка на проект](https://fateevd.github.io/Star-wars/start)
+###[Ссылка на проект](https://fateevd.github.io/Star-wars)
 
 ### Что я использовал
 
