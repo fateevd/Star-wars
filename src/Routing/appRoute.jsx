@@ -13,7 +13,7 @@ const AppRoute = () => {
     return (
 
         <Switch>
-            <Route path='/start'>
+            <Route  exact path='/'>
                 <Start/>
             </Route>
             <Route exact path='/people'>
@@ -34,7 +34,6 @@ const AppRoute = () => {
             <Route path='/error'>
                 <Error/>
             </Route>
-
             <Redirect to="/error"/>
         </Switch>
 

@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className={classes.container}>
             <img className={classes.logo} src={icon} alt="logo"/>
             <nav className={classes.nav}>
-                <NavLink className={classes.nav__link} to="/start">Start</NavLink>
+                <NavLink className={classes.nav__link} exact to="/">Start</NavLink>
                 <NavLink className={classes.nav__link} to="/people/?page=1">Personal</NavLink>
                 <NavLink className={classes.nav__link} to="/search">Search</NavLink>
             </nav>
